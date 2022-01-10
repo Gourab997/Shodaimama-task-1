@@ -59,7 +59,7 @@ body {
   height: 350px;
 }
 .top-banner {
-  margin: 10px 180px;
+  margin: 10px 280px;
 }
 .preorder {
   background-color: #f1f1f1;
@@ -70,7 +70,7 @@ body {
 /* The sidebar menu */
 .sidenav {
   height: 100%;
-  width: 160px;
+  width: 220px;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -80,6 +80,16 @@ body {
 
   margin-top: 62px;
   border-right: 1px solid #b6b6b6;
+}
+.sidebar-img {
+  width: 30px;
+  height: 30px;
+  padding-right: 7px;
+}
+.sidebar-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .arrow {
   position: relative;
@@ -94,12 +104,16 @@ body {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: green;
   display: block;
 }
 
+.explore {
+  background-color: #f4f4f4;
+  padding: 15px;
+}
+
 .sidenav a:hover {
-  color: #f1f1f1;
 }
 article {
   margin-left: 150px;
