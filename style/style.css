@@ -1,9 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto:wght@100&display=swap");
 * {
   margin: 0;
   padding: 0;
 }
 body {
   background-color: #fcfcfc;
+  font-family: "Poppins", sans-serif;
 }
 .top-bar {
   overflow: hidden;
@@ -13,12 +15,12 @@ body {
   width: 100%;
 }
 .icons {
-  padding: 8px;
+  padding-top: 12px;
 
   color: #006a4e;
 }
 .delivery {
-  padding: 8px;
+  padding-top: 12px;
   color: #006a4e;
 }
 .logo {
@@ -59,7 +61,8 @@ body {
   height: 350px;
 }
 .top-banner {
-  margin: 10px 280px;
+  padding-top: 30px;
+  margin: 50px 280px;
 }
 .preorder {
   background-color: #f1f1f1;
@@ -78,7 +81,7 @@ body {
   background-color: rgb(255, 255, 255);
   overflow-x: hidden;
 
-  margin-top: 62px;
+  margin-top: 70px;
   border-right: 1px solid #b6b6b6;
 }
 .sidebar-img {
